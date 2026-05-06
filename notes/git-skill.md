@@ -2,15 +2,19 @@
 
 ### 全部流程
 
+- 在Github上新建repo
+
+- Git Bash / Terminal: 
+
 ```bash
-# 1. 创建文件夹
+# 1.创建并打开文件夹
 mkdir my-algorithm-notes
 cd my-algorithm-notes
 
-# 2. 初始化 git
+# 2.初始化 git
 git init
 
-# 3. 连接远程仓库（先连）
+# 3.连接远程仓库（先连）
 git remote add origin https://github.com/<username>/my-algorithm-notes.git
 
 # 4. 拉取远程（如果是空 repo 可以跳过）
