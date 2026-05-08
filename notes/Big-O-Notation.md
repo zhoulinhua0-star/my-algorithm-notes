@@ -10,7 +10,7 @@
 - We measure the run time of an algorithm by counting the number of the steps.
 - Big-Oh is UPPER BOUND only, which means it can say how fast sth is but not how slow it is.
 - g(n) = O(f(n)) means C * f(n) is an upper bound on g(n).
-- g(n) = O(f(n)) if there are possible constants n and C such that to the right of C, the value of g(n) always lies on or below C * g(n).
+- g(n) = O(f(n)) if there are possible constants n and C such that to the right of n, the value of g(n) always lies on or below C * g(n).
 - Usually used to indicate the dominating (fastest-growing) term in the function.
 - O(n log n) or faster: considered efficient.
 
